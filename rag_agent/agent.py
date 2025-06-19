@@ -1,4 +1,5 @@
-from google.adk.agents import Agent
+from agents import get_agent
+rag_agent = get_agent("rag")
 
 from .tools.add_data import add_data
 from .tools.create_corpus import create_corpus
