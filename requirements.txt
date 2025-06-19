@@ -1,5 +1,13 @@
 google-cloud-aiplatform==1.92.0
-google-cloud-storage==2.19.0
 google-genai==1.14.0
-gitpython==3.1.40  # Remova a linha 'GitPython' duplicada
+# Google Cloud Storage e BigQuery (para memória de projeto, dados brutos)
+google-cloud-storage==2.19.0
+google-cloud-bigquery==3.22.0
+# Google Agent Development Kit (ADK) e suas dependências web
 google-adk==0.5.0
+uvicorn # Deixar sem versão para pip escolher a compatível
+fastapi # Deixar sem versão para pip escolher a compatível
+python-dotenv==1.0.1
+pydantic_settings==2.5.2
+# Dependências para integração com Git (para ferramenta add_data de GitHub)
+gitpython==3.1.40
