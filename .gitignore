@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.venv/
+*.log
+*.pyc
+temp_repo_*
+*.sqlite3 # se usar banco de dados local
+.vscode/  # se não quiser versionar configurações do VS Code
